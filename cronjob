@@ -1,0 +1,3 @@
+# Run the script once
+@reboot /usr/src/app/entrypoint.sh >> /var/log/cron.log 2>&1
+
